@@ -4,7 +4,9 @@
 // @version      1
 // @description  Claim Hot
 // @match        https://tgapp.herewallet.app/*
-// @icon         -
+// @icon         https://github.com/LH-5/Jopa/raw/main/Hot.jpg
+// @updateURL    https://github.com/LH-5/Jopa/raw/main/HotClaim-1.user.js
+// @downloadURL  https://github.com/LH-5/Jopa/raw/main/HotClaim-1.user.js
 // ==/UserScript==
 
 (function() {
@@ -45,3 +47,4 @@
     });
 
 })();
+
