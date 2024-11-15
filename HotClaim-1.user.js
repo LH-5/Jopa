@@ -20,7 +20,7 @@
     }
 
     function ClickStorage() {
-        const StorageButtonSelector = 'h4.sc-elDIKY.gsWjgi';
+        const StorageButtonSelector = 'h4.sc-jzjKHc.iyVmqD';
         ClickElement(StorageButtonSelector);
     }
 
