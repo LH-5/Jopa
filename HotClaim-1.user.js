@@ -20,12 +20,12 @@
     }
 
     function ClickStorage() {
-        const StorageButtonSelector = 'h4.sc-jzjKHc.iyVmqD';
+        const StorageButtonSelector = 'h4.sc-elDIKY.gsWjgi';
         ClickElement(StorageButtonSelector);
     }
 
     function ClaimHot() {
-        const ClaimButtonSelector = 'button.sc-fLVwEd.jbbhZb';
+        const ClaimButtonSelector = 'button.sc-jzjKHc.iyVmqD';
         const claimButton = document.querySelector(ClaimButtonSelector);
 
         if (claimButton && claimButton.textContent.trim() === 'Новости') {
