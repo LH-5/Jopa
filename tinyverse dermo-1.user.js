@@ -19,4 +19,4 @@ setInterval(function()
 setTimeout(function()
             {
     document.querySelector("#space").remove()
-}, 15000 + (Math.random() * 5000))
+}, 1500 + (Math.random() * 500))
