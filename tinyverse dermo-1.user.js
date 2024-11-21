@@ -6,7 +6,8 @@
 // @author       анархия
 // @match        https://app.tonverse.app/*
 // @icon         https://avatars.fastly.steamstatic.com/ebd6dd7e90d02d5193e83bde0165326dfb84fab6_full.jpg
-// @grant        none
+// @updateURL    https://github.com/LH-5/Jopa/raw/main/tinyverse%20dermo-1.user.js
+// @downloadURL  https://github.com/LH-5/Jopa/raw/main/tinyverse%20dermo-1.user.js
 // ==/UserScript==
 
 setInterval(function()
