@@ -13,7 +13,7 @@
 setInterval(function()
             {
     document.querySelector("#ui-bottom > a:nth-child(2)").click()
-}, 500000 + (Math.random() * 300000))
+}, 5000 + (Math.random() * 3000))
 
 
 setTimeout(function()
