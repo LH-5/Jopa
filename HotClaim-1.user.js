@@ -25,7 +25,7 @@
     }
 
     function ClaimHot() {
-        const ClaimButtonSelector = 'button.sc-jzjKHc.iyVmqD';
+        const ClaimButtonSelector = 'button.sc-fLVwEd.jbbhZb';
         const claimButton = document.querySelector(ClaimButtonSelector);
 
         if (claimButton && claimButton.textContent.trim() === 'Новости') {
