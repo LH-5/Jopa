@@ -40,9 +40,11 @@
         }
     }
     window.addEventListener('load', () => {
-        ClickStorage();
         setTimeout(() => {
-            ClaimHot();
+            ClickStorage();
+            setTimeout(() => {
+                ClaimHot();
+            }, 2000);
         }, 10000);
     });
 
