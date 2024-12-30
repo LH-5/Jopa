@@ -25,7 +25,7 @@
     }
 
     function ClaimHot() {
-        const ClaimButtonSelector = 'button.sc-fLVwEd.jbbhZb';
+        const ClaimButtonSelector = 'button.sc-gutikT.fXVWTt';
         const claimButton = document.querySelector(ClaimButtonSelector);
 
         if (claimButton && claimButton.textContent.trim() === 'Новости') {
@@ -40,13 +40,10 @@
         }
     }
     window.addEventListener('load', () => {
+        ClickStorage();
         setTimeout(() => {
-            ClickStorage();
-            setTimeout(() => {
-                ClaimHot();
-            }, 2000);
-        }, 20000);
+            ClaimHot();
+        }, 10000);
     });
 
 })();
-
